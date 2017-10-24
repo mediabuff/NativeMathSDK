@@ -2,7 +2,14 @@
 <FileList
   Identity = "NativeMathSDK, Version=1.0"
   DisplayName = "Native Math SDK"
-  MinVSVersion = "11.0"
-  AppliesTo = "WindowsAppContainer + (CSharp | VB | VisualC)">
+  MinVSVersion = "14.0"
+  TargetPlatform="UAP"
+  TargetPlatformMinVersion="10.0.10240.0"
+  DependsOn = "Microsoft.VCLibs, Version=14.0"
+  MoreInfo = "http://github.com/phraemer/NativeMathSDK"
+  AppliesTo = "WindowsAppContainer + (CSharp | Managed | VB | VisualC)"
+  SupportsMultipleVersions = "Error"
+  SupportedArchitectures="x86;x64"
+  >
   <File Reference="NativeMathWRT.winmd" Implementation="NativeMathWRT.dll" />
 </FileList>
