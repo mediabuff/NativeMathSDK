@@ -45,6 +45,8 @@ void NativeMathSDKSample::MainPage::Execute_Click(Platform::Object^ sender, Wind
     double iSecondNumber = _wtof(SecondNumber->Text->Data());
     double result = 0;
 
+	using namespace NativeMathWRT;
+
     BasicMathWinMD^ basicMathWinMD = ref new BasicMathWinMD();
     BasicMath basicMath;
 
