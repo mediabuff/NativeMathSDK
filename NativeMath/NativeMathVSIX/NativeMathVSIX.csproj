@@ -50,10 +50,6 @@
     <Content Include="DesignTime\Debug\x86\NativeMath.lib">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="DesignTime\Debug\x86\NativeMathSDK.props">
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="Redist\Debug\x86\NativeMathWRT.dll">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -61,6 +57,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="References\CommonConfiguration\Neutral\NativeMathWRT.winmd">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="DesignTime\Debug\x86\NativeMathSDK.props">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">
